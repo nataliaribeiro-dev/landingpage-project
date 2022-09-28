@@ -1,58 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+
 * {
     box-sizing: border-box;
-
 }
 
 body {
-    margin: 0;
+    
+    margin-left:5%;
+    margin-right: 5%;
     font-family: 'Roboto', sans-serif;
     background-color: #000;
 }
 
 .navbar {
+    margin-left:5%;
+    margin-right: 5%;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     height: 100px;
-    margin-left: 5%;
-    margin-right: 5%; 
-    background-color:#2A2927;
+    padding: 36px;
+    background-color:#000;
     
 }
 
-/* .logo{
-    flex: 40%;
-    border: 2px solid yellow;
-} */
+.logo {
+    display: flex;   
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex: 25%;
+    margin-left: 2%;
+    padding: 8px;
+    
+} 
 
-.menu{
+.menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     margin-left: 3%;
-    text-align: left;
-    flex: 50%;
-    /* border: 2px solid red; */
-      
+    margin-bottom: 3%;
+    text-align: right;
+    flex: 70%;
+    padding: 10px;
 } 
 
 .menu a {
-    background-color: black;
-    border-radius: 5px;
     margin-right: 5%;
-    padding: 6px 16px;
+    padding: 8px 16px;
+    border-radius: 5px;
     font-weight: bold;
-    font-size:18px;
+    font-size: 16px;
     text-decoration: none;
-    color: white;
+    color: whitesmoke;
     text-transform: capitalize;
+    letter-spacing: 2px;
 }
 
-.menu a:hover{
+.menu a:hover {
     background-color: #BBC273;
-    /* border: 1px solid white; */
+
 }
 
-.header{
+.header {
     display: flex;
+    background-image: url(./img/header.png);
+    background-size: cover;
     width: 90%;
     height: 450px;
     margin-left: 5%;
@@ -62,50 +75,39 @@ body {
 }
 
 .herotext {
-    
     margin-left: 60px;
-    width: 50%;
-    height: 100%;
-    
+    width: 40%;
+    height: auto;
 }
 
 .herotext h2 {
-    margin-top: 12%;
-    margin-bottom:0;
+    margin-top: 20%;
+    margin-bottom: 0;
     padding: 8px;
-    color: white;
-    font-size: 56px;
+    font-size: 48px;
     font-weight:bolder;
-    text-align: justify;
+    text-align: left;
+    color: white;
+    letter-spacing: 2px;
+    
 }
+
 .herotext p {
     margin-left: 6px;
     padding: 0;
-    font-size: 22px;
+    font-size: 18px;
     color: #757569;
-    text-align: justify;
-    
-}
-
-.hero-img img {
-    
-    
-    max-width: 80%;
-    height:100%;
-    margin-bottom: 10px;
-    object-fit:cover;
-    border-radius: 16px;
-    box-shadow: -3px 4px 10px black;
-
+    text-align: left;
+    letter-spacing: 2px;
     
 }
 
 #button {
-    margin: auto 10px;
-    margin-top: 20px;
+    margin: auto 4px;
     background-color: #BBC273;
+    font-size: 16px;
     font-weight: bold;
-    font-size: 18px;
+    letter-spacing: 2px;
     border: 1px solid #2A2927;
     border-radius:7px;
     padding: 8px;
@@ -113,11 +115,12 @@ body {
 }
 
 .content {
+    display: inline-block;
     width: 90%;
-    height:100px;
+    height: auto;
     margin-left: 5%;
     margin-right: 5%;
-    padding: 10px;
+    padding: 8px;
     background-color: whitesmoke;
     
 }
@@ -126,82 +129,91 @@ body {
     margin: 20px auto;
     width: 100%;
     text-align: center;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 900;
     text-transform: capitalize;
-    color: #2A2927
- 
+    color: #2A2927;
+    letter-spacing: 6px;
 }
 
 .container {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2%;
-    margin-bottom: 2%;
-}
-
-.img {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-    width: 20%;
+    height: 600px;
+    width: 90%;
+    margin-left: 5%;
+    background-color: #2A2927;
+   
 }
 
 .img img{
+    display: flex;
+    flex-wrap: wrap;
+    padding: auto; 
+    max-width: 100%;
+    max-height: 100%;
     width: 100%;
-    height:90%;
+    height: 100%;
     object-fit: cover;
-    border-radius: 16px;
-    box-shadow: -3px 4px 10px black;
     
 }
 
 .quote {
     display: flex;
+    justify-content: center;
     width: 90%;
-    height: 100px;
+    padding: 16px;
     margin-left: 5%;
     margin-right: 5%;
     background-color: #2A2927;
     border-bottom:8px solid #BBC273;
+    
 }
 
 .quote h2 {
-    margin:auto;
     color: lightgray;
-    font-size: 32px;
-    font-weight:400;
-    align-items: center ;
-
+    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 4px;
+    
 }
 
 .cta {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    height: 200px;
+    height: 150px;
     margin-left: 5%;
     margin-right: 5%;
     background-color: whitesmoke;
-}
-
-/* 
-.call {
     
 }
 
- .call h2, a{
-   font-size: 20px;
-   text-decoration: none;
-   border: 20px solid #BBC273;
+.cta h2 {
+    text-align: center;
+    color: #2A2927;
+    font-size: 18px;
+    letter-spacing: 2px;
+    
 }
 
+.button2 button {
+    width: 200px;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #2A2927;
+    color:white;
+    cursor: pointer;
+}
 
-.call a {
-    text-decoration: none;    
-} */
+button:hover {
+    background-color: #000;
+}
 
 footer{
     display: flex;
@@ -216,24 +228,25 @@ footer{
 .element{
     display: flex;
     flex: 1;
-    gap: 20px;
-    padding: 28px;
+    gap: 8px;
+    padding: 32px;
+    
 }
 
-
-
 p {
-    padding: 16px;
+    padding: 8px;
     align-self: center;
     font-size: 18px;
     text-align: end;
+    font-weight: bold;
+    margin-right: 20px;
     
 }
 
 h4 {
     align-self: center;  
-    font-size: 24px; 
-    padding: 18px;
-    
+    font-size: 18px; 
+    padding: 8px;
+    text-transform: capitalize;
 }
 
