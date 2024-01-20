@@ -10,6 +10,7 @@ totalmente feita em HTML e Css puro.
 
 ![Descrição da Imagem](gifs/lp-yalla.gif)
 
+https://nataliaribeiro-dev.github.io/landingpage-project/
 
 
 ## A Yalla 
