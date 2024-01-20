@@ -8,6 +8,9 @@ que é característica muito forte dentro do meio da tecnologia.
 Comecei meus estudos sozinha, pela plataforma do projeto e esta Landing Page é motivo de muito orgulho pra mim, pois foi minha primeira página web, 
 totalmente feita em HTML e Css puro. 
 
+![Descrição da Imagem](gifs/lp-yalla.gif)
+
+
 
 ## A Yalla 
 
@@ -61,10 +64,17 @@ Git, Html, CSS
 - Habilidade de pesquisa e leitura de documentações.
 
 
+## Melhorias a serem implementadas
+
+- Responsividade;
+- Utilização de JS para deixar a página dinâmica;
+
+
 ## Referências
 
  - [MDN - HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
  - [MDN - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
  - [The Odin Project](https://www.theodinproject.com/)
  
+## Sua contribuição é sempre bem-vinda!!!
 
