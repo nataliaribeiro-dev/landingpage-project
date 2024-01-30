@@ -77,5 +77,5 @@ Git, Html, CSS
  - [MDN - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference)
  - [The Odin Project](https://www.theodinproject.com/)
  
-## Sua contribuição é sempre bem-vinda!!!
+## Sua contribuição é sempre bem-vinda!
 
